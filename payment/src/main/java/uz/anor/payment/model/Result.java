@@ -1,4 +1,4 @@
-package uz.paycom.payment.model;
+package uz.anor.payment.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -32,7 +32,7 @@ dependencies {
   implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
 }
 
-group = 'uz.paycom'
+group = 'anor'
 version = ver
 
 bintray {
@@ -42,12 +42,12 @@ bintray {
   pkg {
     repo = 'general'
     name = 'android-sdk'
-    userOrg = 'paycom'
+    userOrg = 'qurash'
     licenses = ['Apache-2.0']
-    vcsUrl = 'https://github.com/PaycomUZ/AndroidSDK.git'
+    vcsUrl = 'https://github.com/qurash98/AndroidSDK.git'
     version {
       name = ver
-      desc = 'Paycom android sdk'
+      desc = 'Paycom business'
       vcsTag = ver
     }
   }

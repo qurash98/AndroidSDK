@@ -1,11 +1,11 @@
-package uz.paycom.payment.api;
+package uz.anor.payment.api;
 
 import android.util.Log;
 
 import org.json.JSONObject;
 
-import uz.paycom.payment.model.Confirm;
-import uz.paycom.payment.model.Result;
+import uz.anor.payment.model.Confirm;
+import uz.anor.payment.model.Result;
 
 /**
  * Parse json api objects

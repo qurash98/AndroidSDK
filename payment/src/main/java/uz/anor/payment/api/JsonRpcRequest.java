@@ -1,4 +1,4 @@
-package uz.paycom.payment.api;
+package uz.anor.payment.api;
 
 import android.util.Log;
 
@@ -12,7 +12,7 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import uz.paycom.payment.utils.PaycomSandBox;
+import uz.anor.payment.utils.PaycomSandBox;
 
 public class JsonRpcRequest {
 

@@ -1,4 +1,4 @@
-package uz.paycom.payment;
+package uz.anor.payment;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -16,11 +16,12 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
-import uz.paycom.payment.api.task.VerifyCardTask;
-import uz.paycom.payment.utils.CardNumberFormat;
-import uz.paycom.payment.utils.DateExpireFormat;
-import uz.paycom.payment.utils.LocaleHelper;
-import uz.paycom.payment.utils.PaycomSandBox;
+import uz.anor.payment.api.task.VerifyCardTask;
+import uz.anor.payment.utils.CardNumberFormat;
+import uz.anor.payment.utils.DateExpireFormat;
+import uz.anor.payment.utils.LocaleHelper;
+import uz.anor.payment.utils.PaycomSandBox;
+import uz.anor.payment.R;
 
 public class PaymentActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package uz.paycom.payment.utils;
+package uz.anor.payment.utils;
 
 import android.text.Editable;
 import android.text.TextWatcher;

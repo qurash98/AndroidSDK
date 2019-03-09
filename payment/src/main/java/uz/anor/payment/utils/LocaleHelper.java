@@ -1,4 +1,4 @@
-package uz.paycom.payment.utils;
+package uz.anor.payment.utils;
 
 import android.annotation.TargetApi;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package uz.paycom.payment.api.task;
+package uz.anor.payment.api.task;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -8,11 +8,11 @@ import org.json.JSONObject;
 
 import java.lang.ref.WeakReference;
 
-import uz.paycom.payment.ConfirmActivity;
-import uz.paycom.payment.PaymentActivity;
-import uz.paycom.payment.R;
-import uz.paycom.payment.api.JsonParser;
-import uz.paycom.payment.api.JsonRpcRequest;
+import uz.anor.payment.ConfirmActivity;
+import uz.anor.payment.PaymentActivity;
+import uz.anor.payment.api.JsonParser;
+import uz.anor.payment.api.JsonRpcRequest;
+import uz.anor.payment.R;
 
 /**
  * VerifyCardTask - call several cards methods api

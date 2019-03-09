@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion project.ext.compileSdkVersion
     defaultConfig {
-        applicationId "uz.paycom.testpaycom"
+        applicationId "uz.anor.app"
         minSdkVersion project.ext.minSdkVersion
         targetSdkVersion project.ext.targetSdkVersion
         versionCode 1

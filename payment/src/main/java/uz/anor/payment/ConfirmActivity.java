@@ -1,4 +1,4 @@
-package uz.paycom.payment;
+package uz.anor.payment;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,12 +19,13 @@ import android.widget.TextView;
 
 import org.json.JSONObject;
 
-import uz.paycom.payment.api.JsonParser;
-import uz.paycom.payment.api.JsonRpcRequest;
-import uz.paycom.payment.model.Confirm;
-import uz.paycom.payment.utils.LocaleHelper;
+import uz.anor.payment.api.JsonParser;
+import uz.anor.payment.api.JsonRpcRequest;
+import uz.anor.payment.model.Confirm;
+import uz.anor.payment.utils.LocaleHelper;
+import uz.anor.payment.R;
 
-import static uz.paycom.payment.PaymentActivity.EXTRA_LANG;
+import static uz.anor.payment.PaymentActivity.EXTRA_LANG;
 
 public class ConfirmActivity extends AppCompatActivity {
 
