@@ -11,8 +11,7 @@ ext {
 
 android {
   defaultConfig {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 28
     minSdkVersion 14
     versionCode 1
     versionName ver
@@ -29,8 +28,8 @@ android {
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.android.support:appcompat-v7:+'
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
 }
 
 group = 'uz.paycom'

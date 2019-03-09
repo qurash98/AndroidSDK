@@ -1,7 +1,6 @@
 package uz.paycom.testpaycom;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,6 +8,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
+import androidx.appcompat.app.AppCompatActivity;
 import uz.paycom.payment.PaymentActivity;
 import uz.paycom.payment.model.Result;
 import uz.paycom.payment.utils.PaycomSandBox;

@@ -1,28 +1,29 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion project.ext.compileSdkVersion
-  buildToolsVersion project.ext.buildToolsVersion
-  defaultConfig {
-    applicationId "uz.paycom.testpaycom"
-    minSdkVersion project.ext.minSdkVersion
-    targetSdkVersion project.ext.targetSdkVersion
-    versionCode 1
-    versionName "1.0"
-  }
-  buildTypes {
-    debug {
-      debuggable true
+    compileSdkVersion project.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "uz.paycom.testpaycom"
+        minSdkVersion project.ext.minSdkVersion
+        targetSdkVersion project.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
     }
-    release {
-      minifyEnabled false
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
     }
-  }
 }
 
 dependencies {
-  compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-  compile project(":payment");
+    implementation project(":payment")
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 }
